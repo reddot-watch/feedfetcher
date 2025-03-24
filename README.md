@@ -17,7 +17,7 @@ This package uses [gofeed](https://github.com/mmcdole/gofeed) for the core feed 
 ## Installation
 
 ```bash
-go get github.com/reddot-watch/FeedFetcher
+go get github.com/reddot-watch/feedfetcher
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/reddot-watch/FeedFetcher"
+	"github.com/reddot-watch/feedfetcher"
 )
 
 func main() {

@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/reddot-watch/FeedFetcher/internal/feedparser"
+	"github.com/reddot-watch/feedfetcher/internal/feedparser"
 )
 
 type MockFeedParser struct {

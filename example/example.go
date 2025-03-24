@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/reddot-watch/FeedFetcher"
+	"github.com/reddot-watch/feedfetcher"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 )

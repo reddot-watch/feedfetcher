@@ -1,4 +1,4 @@
-module github.com/reddot-watch/FeedFetcher
+module github.com/reddot-watch/feedfetcher
 
 go 1.24
 

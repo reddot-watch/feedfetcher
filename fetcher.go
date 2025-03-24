@@ -10,9 +10,9 @@ import (
 	"golang.org/x/time/rate"
 
 	"github.com/mmcdole/gofeed"
-	"github.com/reddot-watch/FeedFetcher/internal/feedparser"
-	"github.com/reddot-watch/FeedFetcher/internal/limiter"
-	"github.com/reddot-watch/FeedFetcher/internal/validation"
+	"github.com/reddot-watch/feedfetcher/internal/feedparser"
+	"github.com/reddot-watch/feedfetcher/internal/limiter"
+	"github.com/reddot-watch/feedfetcher/internal/validation"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 )

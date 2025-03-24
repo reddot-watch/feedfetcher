@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/mmcdole/gofeed"
-	"github.com/reddot-watch/FeedFetcher/internal/dateparser"
+	"github.com/reddot-watch/feedfetcher/internal/dateparser"
 )
 
 var (
