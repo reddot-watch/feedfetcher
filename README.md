@@ -35,7 +35,7 @@ import (
 )
 
 func main() {
-	fetcher := FeedFetcher.NewFeedFetcher(FeedFetcher.Config{
+	fetcher := feedfetcher.NewFeedFetcher(feedfetcher.Config{
 		UserAgent:            "MyFeedReader/1.0",
 		RequestTimeout:       15 * time.Second,
 		MaxItems:             50,
@@ -72,7 +72,7 @@ func main() {
 FeedFetcher supports method chaining for configuration:
 
 ```go
-fetcher := FeedFetcher.NewDefaultFeedFetcher().
+fetcher := feedfetcher.NewDefaultFeedFetcher().
     WithUserAgent("MyFeedReader/1.0").
     WithMaxItems(50).
     WithRequestTimeout(15 * time.Second)

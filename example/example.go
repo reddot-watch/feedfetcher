@@ -33,7 +33,7 @@ func main() {
 	}
 
 	// Create a customized feed fetcher
-	fetcher := FeedFetcher.NewDefaultFeedFetcher().
+	fetcher := feedfetcher.NewDefaultFeedFetcher().
 		WithMaxItems(maxItems).
 		WithMaxAge(7 * 24 * time.Hour). // Accept items up to a week old
 		WithRequestTimeout(15 * time.Second)

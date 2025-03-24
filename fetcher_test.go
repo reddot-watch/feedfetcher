@@ -1,4 +1,4 @@
-package FeedFetcher
+package feedfetcher
 
 import (
 	"context"
